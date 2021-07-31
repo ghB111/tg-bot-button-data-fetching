@@ -1,3 +1,6 @@
+# just to be sure I do not commit anything wrong
+test.ts
+
 build/*
 res/*
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
