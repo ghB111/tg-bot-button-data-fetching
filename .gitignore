@@ -1,7 +1,7 @@
 # just to be sure I do not commit anything wrong
-test.ts
+test_server.ts
 
-build/*
+dist/*
 res/*
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode

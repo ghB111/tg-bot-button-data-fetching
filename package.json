@@ -1,16 +1,18 @@
 {
-  "name": "tg-bot-simple-data-fetching",
+  "name": "tg-bot-button-data-fetching",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Easily make a bot to retrieve data from your server using buttons",
+  "main": "dist/FetchingButtonsBot.js",
+  "types": "dist/FetchingButtonsBot.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build && node ./dist/test.js",
     "start:dev": "nodemon",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node ./build/test.js"
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node ./dist/test_server.js",
+    "prepublish": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["telegram", "bot", "buttons"],
+  "author": "Roman Brek",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.4.8",
@@ -22,5 +24,8 @@
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.54.0"
+  },
+  "repository": {
+    "url": "https://github.com/ghB111/tg-bot-button-data-fetching"
   }
 }
