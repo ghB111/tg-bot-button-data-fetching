@@ -1,6 +1,6 @@
 {
   "name": "tg-bot-button-data-fetching",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily make a bot to retrieve data from your server using buttons",
   "main": "dist/FetchingButtonsBot.js",
   "types": "dist/FetchingButtonsBot.d.ts",
@@ -11,7 +11,11 @@
     "start": "npm run build && node ./dist/test_server.js",
     "prepublish": "npm run build"
   },
-  "keywords": ["telegram", "bot", "buttons"],
+  "keywords": [
+    "telegram",
+    "bot",
+    "buttons"
+  ],
   "author": "Roman Brek",
   "license": "ISC",
   "devDependencies": {
