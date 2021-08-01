@@ -30,6 +30,7 @@
     "node-telegram-bot-api": "^0.54.0"
   },
   "repository": {
-    "url": "https://github.com/ghB111/tg-bot-button-data-fetching"
+    "type": "git",
+    "url": "https://github.com/ghB111/tg-bot-button-data-fetching.git"
   }
 }
