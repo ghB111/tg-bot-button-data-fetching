@@ -1,6 +1,6 @@
 {
   "name": "tg-bot-button-data-fetching",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easily make a bot to retrieve data from your server using buttons",
   "main": "dist/FetchingButtonsBot.js",
   "types": "dist/FetchingButtonsBot.d.ts",
